@@ -1,0 +1,11 @@
+[project]
+name = "lerobot-lelab"
+version = "0.1.0"
+requires-python = ">=3.12"
+dependencies = [
+    "lelab",
+    "lerobot[all]>=0.6.0",
+]
+
+[tool.uv.sources]
+lelab = { git = "https://github.com/huggingface/leLab.git" }
