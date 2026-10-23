@@ -8,3 +8,16 @@ wheels/
 
 # Virtual environments
 .venv
+
+# データ・学習出力
+data/
+outputs/
+wandb/
+*.safetensors
+*.ckpt
+
+# 環境変数・秘密情報
+.env
+
+# OS
+.DS_Store
